@@ -8,6 +8,9 @@ body {
 
 header  {
     background: #ebebeb;
+    width: 68%;
+    margin-left: 16%;
+    text-align: center;
 }
 h3, p {
     background: #ebebeb;
@@ -16,11 +19,15 @@ h3, p {
 
 nav {
     background: #ebebeb;
+    width: 68%;
+    margin-left: 16%;
+    text-align: center;
 }
 
  section {
     background: #ebebeb;
     width: 495px;
+    
 }
 
 aside {
@@ -29,6 +36,9 @@ aside {
 
 footer {
     background: #ebebeb;
+    width: 68%;
+    margin-left: 16%;
+    text-align: center;
 }
 
 article {
