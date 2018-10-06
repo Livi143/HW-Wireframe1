@@ -30,6 +30,7 @@ section {
     height: 33%;
     float: left;
     padding-right: 16.5%;
+    text-align: center;
     
 } 
 
@@ -51,8 +52,13 @@ aside {
     background: #ebebeb;
     float: left;
     width: 495px;
-    padding-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 10px;
+
 }
+
+
 
 .clearfix:after {
     content:“”;
