@@ -22,6 +22,7 @@ nav {
     text-align: center;   
 }
 
+
 section {
     background: #ebebeb;
     color: #777;
@@ -52,7 +53,11 @@ aside {
     width: 495px;
 }
 
-clearfix:: all;
+.clearfix:after {
+    content:“”;
+    display:block;
+    clear:both;
+}
 footer {
     text-align: center;
     background: #ebebeb;
