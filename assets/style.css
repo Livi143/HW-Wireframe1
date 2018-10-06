@@ -1,3 +1,11 @@
+html, body, section, aside,  {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
 body {
    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
    color: #777; 
@@ -9,29 +17,33 @@ body {
 header  {
     background: #ebebeb;
     width: 68%;
-    margin-left: 16%;
+    margin-left: 16.5%;
     text-align: center;
 }
 
 nav {
     background: #ebebeb;
     width: 68%;
-    margin-left: 16%;
+    margin-left: 16.5%;
     text-align: center;
 }
 
 section {
     background: #ebebeb;
     color: #777;
-    width: 495px;
+    width: 33%;
+    height: 33%;
     float: left;
+    padding-right: 16.5%;
     
 } 
 
 article {
     color: #ebebeb;
     background: #777;
-    width: 495px;
+    text-align: center;
+    width: 62%;
+    margin-left: 40%;
 }
 
 h3, p {
@@ -46,9 +58,13 @@ aside {
     width: 495px;
 }
 
+clearfix:: all;
 footer {
+    text-align: center;
     background: #ebebeb;
     width: 68%;
     margin-left: 16%;
-    text-align: center;
+    margin-top: 25%;
+   
+    
 }
