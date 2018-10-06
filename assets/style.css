@@ -49,8 +49,9 @@ h3, p {
 
 aside {
     background: #ebebeb;
-    float: right;
+    float: left;
     width: 495px;
+    padding-right: 15px;
 }
 
 .clearfix:after {
