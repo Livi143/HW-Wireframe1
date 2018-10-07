@@ -6,6 +6,10 @@ body {
     font-size: 18px; 
  }
 
+header, nav, #container, footer {
+    width: 68%;
+    margin: 0 auto;
+}
 header, nav, footer { 
     padding: 20px;
     margin-bottom: 10px;
@@ -14,13 +18,11 @@ header, nav, footer {
 
 header  {
     background: #ebebeb;
-    width: 68%;
     margin-left: 16.5%;
 }
 
 nav {
     background: #ebebeb;
-    width: 68%;
     margin-left: 16.5%;  
 }
 
@@ -29,9 +31,9 @@ section {
     color: #777;
     width: 33%;
     height: 33%;
-    float: left;
     padding-right: 16.5%;
     text-align: center;  
+
 } 
 
 article {
